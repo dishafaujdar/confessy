@@ -1,11 +1,15 @@
-import './App.css'
-import FetchData from './Fetch'
+import './index.css'
+import Frontpg from './components/ui/frontpg'
+// import Wall from './components/ui/wall'
+// import FetchData from './Fetch'
 
 function App() {
   return (
     <>
       <div>
-        <FetchData />
+        <Frontpg />
+        {/* <FetchData /> */}
+        {/* <Wall/> */}
        </div>
     </>
   )

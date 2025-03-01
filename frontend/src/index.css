@@ -1,0 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.section {
+    @apply relative w-full h-screen flex items-center justify-center;
+}
+
+.fade-text {
+    @apply opacity-0 transition-opacity duration-700;
+}
